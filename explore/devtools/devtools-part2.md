@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are being treated as strings rather than numbers so the result is also a string and, for example, adding '1' and '1' would return '11' instead of 2.
+2. I would add Number(num1) and Number(num2) so the values are treated as numbers instead of strings.
